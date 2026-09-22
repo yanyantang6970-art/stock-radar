@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-22 16:20:03",
-  "source_updated_at": "2026-09-22 16:19:34",
+  "update_time": "2026-09-22 16:25:00",
+  "source_updated_at": "2026-09-22 16:24:37",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
@@ -97,15 +97,15 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 21.3,
-      "score": 49,
+      "price": 21.36,
+      "score": 64,
       "signal": "HOLD",
       "drivers": [
         "铝价",
         "港股资源周期"
       ],
       "reasons": [
-        "短线回调",
+        "震荡",
         "aluminum周期支持"
       ],
       "role": "港股铝"
