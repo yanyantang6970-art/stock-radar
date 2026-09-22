@@ -1,4 +1,4 @@
-"""在行情同步成功后，基于已提交的同一快照依次派生并发布 V3.5 文件。"""
+"""基于本地行情快照依次派生 V3.5 文件，不依赖网络。"""
 import fcntl
 import json
 import os
@@ -14,10 +14,6 @@ CODES = {'000426', '603993', '601600', '002202', '600598', '159587', '01378'}
 OUTPUTS = ('radar_v3.json', 'position_signal.json')
 
 
-def git(*args):
-    return subprocess.check_output(['git', *args], cwd=BASE, text=True, timeout=90)
-
-
 def plain(code):
     return code[2:] if code[:2] in ('sz', 'sh', 'hk') else code
 
@@ -29,7 +25,7 @@ def main():
         except BlockingIOError:
             print('V3.5：已有派生任务运行')
             return
-        snapshot = git('show', 'HEAD:radar.json')
+        snapshot = (BASE / 'radar.json').read_text(encoding='utf-8')
         radar = json.loads(snapshot)
         if {plain(c) for c in radar['stocks']} != CODES:
             raise ValueError('实时行情未包含完整七股')
@@ -51,13 +47,7 @@ def main():
                 shutil.copyfile(temp / name, BASE / (name + '.tmp'))
                 os.replace(BASE / (name + '.tmp'), BASE / name)
         if '--publish' in sys.argv:
-            git('add', '--', *OUTPUTS)
-            changed = subprocess.run(['git', 'diff', '--cached', '--quiet', '--', *OUTPUTS], cwd=BASE).returncode
-            if changed == 1:
-                git('commit', '-m', 'Update V3.5 derived radar signals', '--', *OUTPUTS)
-            elif changed:
-                raise RuntimeError('无法检查派生文件变更')
-            git('push', 'origin', 'main')
+            subprocess.run([sys.executable, str(BASE / 'upload_v35.py')], check=True, timeout=100)
         print('V3.5：七股派生完成，行情时间 ' + radar['updated_at'], flush=True)
 
 
