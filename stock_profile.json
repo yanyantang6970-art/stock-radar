@@ -1,0 +1,63 @@
+{
+  "sz000426": {
+    "name": "兴业银锡",
+    "drivers": {
+      "silver": 0.7,
+      "tin": 0.2,
+      "gold": 0.1
+    },
+    "labels": ["白银周期", "锡资源", "贵金属周期"]
+  },
+  "sh603993": {
+    "name": "洛阳钼业",
+    "drivers": {
+      "copper": 0.6,
+      "cobalt": 0.2,
+      "resource_cycle": 0.2
+    },
+    "labels": ["铜周期", "钴资源", "资源周期"]
+  },
+  "sh601600": {
+    "name": "中国铝业",
+    "drivers": {
+      "aluminum": 0.8,
+      "industrial_cycle": 0.2
+    },
+    "labels": ["铝周期", "工业周期"]
+  },
+  "hk01378": {
+    "name": "中国宏桥",
+    "drivers": {
+      "aluminum": 0.7,
+      "hk_resource": 0.3
+    },
+    "labels": ["铝价", "港股资源周期"]
+  },
+  "sz002202": {
+    "name": "金风科技",
+    "drivers": {
+      "wind_power": 0.4,
+      "green_fuel": 0.2,
+      "space_theme": 0.3,
+      "policy_cycle": 0.1
+    },
+    "labels": ["风电", "绿色能源", "商业航天主题"]
+  },
+  "sh600598": {
+    "name": "北大荒",
+    "drivers": {
+      "food_security": 0.5,
+      "agriculture": 0.3,
+      "policy_cycle": 0.2
+    },
+    "labels": ["粮食安全", "农业政策", "农产品周期"]
+  },
+  "sz159587": {
+    "name": "粮食ETF",
+    "drivers": {
+      "agriculture": 0.6,
+      "food_security": 0.4
+    },
+    "labels": ["农业Beta", "粮食安全主题"]
+  }
+}

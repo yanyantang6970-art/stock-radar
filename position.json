@@ -1,0 +1,67 @@
+{
+  "positions": {
+    "000426": {
+      "name": "兴业银锡",
+      "total": 4500,
+      "core": 4000,
+      "t_position": 500,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "603993": {
+      "name": "洛阳钼业",
+      "total": 6600,
+      "core": 6600,
+      "t_position": 0,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "601600": {
+      "name": "中国铝业",
+      "total": 10300,
+      "core": 10300,
+      "t_position": 0,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "002202": {
+      "name": "金风科技",
+      "total": 1000,
+      "core": 500,
+      "t_position": 500,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "600598": {
+      "name": "北大荒",
+      "total": 1400,
+      "core": 1400,
+      "t_position": 0,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "159587": {
+      "name": "粮食ETF",
+      "total": 10500,
+      "core": 10500,
+      "t_position": 0,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    },
+    "01378": {
+      "name": "中国宏桥",
+      "total": 1500,
+      "core": 1500,
+      "t_position": 0,
+      "cost": null,
+      "last_t_sell_price": null,
+      "last_t_buy_price": null
+    }
+  }
+}
