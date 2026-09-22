@@ -1,0 +1,118 @@
+{
+  "update_time": "2026-09-22 13:41:25",
+  "source_updated_at": "2026-09-22 13:40:52",
+  "signal_updated_at": "2026-09-22 13:41:25",
+  "stocks": {
+    "000426": {
+      "name": "兴业银锡",
+      "total": 4500,
+      "core": 4000,
+      "t_position": 500,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡",
+        "silver周期支持",
+        "gold周期支持",
+        "核心仓"
+      ]
+    },
+    "603993": {
+      "name": "洛阳钼业",
+      "total": 6600,
+      "core": 6600,
+      "t_position": 0,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡",
+        "copper周期支持"
+      ]
+    },
+    "601600": {
+      "name": "中国铝业",
+      "total": 10300,
+      "core": 10300,
+      "t_position": 0,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡",
+        "aluminum周期支持"
+      ]
+    },
+    "002202": {
+      "name": "金风科技",
+      "total": 1000,
+      "core": 500,
+      "t_position": 500,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡"
+      ]
+    },
+    "600598": {
+      "name": "北大荒",
+      "total": 1400,
+      "core": 1400,
+      "t_position": 0,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "短线强势"
+      ]
+    },
+    "159587": {
+      "name": "粮食ETF",
+      "total": 10500,
+      "core": 10500,
+      "t_position": 0,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡"
+      ]
+    },
+    "01378": {
+      "name": "中国宏桥",
+      "total": 1500,
+      "core": 1500,
+      "t_position": 0,
+      "signal": "HOLD",
+      "core_action": "保持核心仓",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "震荡",
+        "aluminum周期支持"
+      ]
+    }
+  }
+}
