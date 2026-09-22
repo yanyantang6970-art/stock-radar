@@ -1,83 +1,34 @@
-import os
-import subprocess
+"""只读健康检查；使用数据内时间，避免将本地提交时间冒充远端验证。"""
+import json
+from pathlib import Path
 from datetime import datetime
 
-# ============================================================
-# 🌌 星河周期观测站 V3.2
-# radar_health_check.py
-#
-# 只检查状态，不修改任何交易/行情文件
-# ============================================================
-
-LOCAL_RADAR = "/Users/lizhe/radar.json"
-REPO_PATH = "/Users/lizhe/stock-radar"
+BASE = Path(__file__).resolve().parent
 
 
-def check_process(keyword):
+def check(label, path, key):
     try:
-        result = subprocess.run(
-            ["pgrep", "-f", keyword],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-        return bool(result.stdout.strip())
-    except Exception:
-        return False
+        data = json.loads(path.read_text(encoding='utf-8'))
+        timestamp = data[key]
+        age = (datetime.now() - datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S')).total_seconds()
+        source = data.get('source_updated_at', timestamp)
+        source_age = (datetime.now() - datetime.strptime(source, '%Y-%m-%d %H:%M:%S')).total_seconds()
+        codes = {c[2:] if c[:2] in ('sz', 'sh', 'hk') else c for c in data['stocks']}
+        expected = {'000426', '603993', '601600', '002202', '600598', '159587', '01378'}
+        if codes != expected:
+            state = '⚠️七股不完整'
+        elif not (-60 <= age <= 900 and -60 <= source_age <= 900):
+            state = '⚠️明显过期（非交易时段可正常停更）'
+        else:
+            state = '✅正常'
+        print(f'{label}：{state}；更新时间 {timestamp}；行情来源 {source}')
+    except FileNotFoundError:
+        print(f'{label}：❌文件不存在')
+    except Exception as exc:
+        print(f'{label}：❌数据无法读取：{exc}')
 
 
-def local_radar_time():
-    try:
-        t = os.path.getmtime(LOCAL_RADAR)
-        return datetime.fromtimestamp(t).strftime("%H:%M:%S")
-    except Exception:
-        return "无法读取"
-
-
-def github_radar_time():
-    try:
-        result = subprocess.run(
-            ["git", "log", "-1", "--format=%cd", "--date=format:%H:%M:%S", "--", "radar.json"],
-            cwd=REPO_PATH,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-        if result.stdout.strip():
-            return result.stdout.strip()
-        return "无记录"
-    except Exception:
-        return "无法读取"
-
-
-print("\n🌌 星河周期观测站 V3.2 状态检查")
-print("=" * 40)
-
-stock_ok = check_process("stock_radar")
-sync_ok = check_process("sync_radar")
-
-print("\n行情采集：")
-print("✅正常" if stock_ok else "❌未启动")
-
-print("\n同步服务：")
-print("✅正常" if sync_ok else "❌未启动")
-
-local_time = local_radar_time()
-github_time = github_radar_time()
-
-print("\n本地数据：")
-print(local_time + " 更新")
-
-print("\nGitHub：")
-print(github_time + " 更新")
-
-if local_time != "无法读取" and github_time != "无法读取":
-    if local_time != github_time:
-        print("\n问题：")
-        print("本地数据与GitHub存在时间差")
-        print("可能断点：sync_radar同步环节")
-    else:
-        print("\n状态：")
-        print("本地与GitHub时间一致")
-
-print("=" * 40)
+if __name__ == '__main__':
+    check('实时行情', Path('/Users/lizhe/radar.json'), 'updated_at')
+    check('信号引擎', BASE / 'radar_v3.json', 'update_time')
+    check('仓位引擎', BASE / 'position_signal.json', 'update_time')

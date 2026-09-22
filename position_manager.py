@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 
 POSITION_FILE = "position.json"
 V3_FILE = "radar_v3.json"
@@ -7,11 +8,8 @@ OUTPUT_FILE = "position_signal.json"
 
 
 def load(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def translate_action(position, signal, reasons):
@@ -43,12 +41,18 @@ def translate_action(position, signal, reasons):
 
 def main():
     position_data = load(POSITION_FILE).get("positions", {})
-    v3 = load(V3_FILE).get("stocks", {})
+    v3_data = load(V3_FILE)
+    v3 = {(code[2:] if code[:2] in ("sz", "sh", "hk") else code): stock
+          for code, stock in v3_data["stocks"].items()}
+    if set(v3) != set(position_data):
+        raise ValueError("行情信号与仓位代码不完整或不匹配")
 
-    output = {"stocks": {}}
+    output = {"update_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+              "source_updated_at": v3_data["source_updated_at"],
+              "signal_updated_at": v3_data["update_time"], "stocks": {}}
 
     for code, position in position_data.items():
-        stock = v3.get(code, {})
+        stock = v3[code]
         signal = stock.get("signal", "HOLD")
         reasons = stock.get("reasons", stock.get("drivers", []))
 

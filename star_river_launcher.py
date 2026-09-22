@@ -56,7 +56,7 @@ def health_check():
 
     if os.path.exists(check):
         subprocess.run(
-            [sys.executable, check]
+            [sys.executable, check], cwd=BASE_DIR
         )
 
 
@@ -98,27 +98,14 @@ if __name__ == "__main__":
 
     print("\n检查同步服务...")
 
-    if process_running("sync_radar.py"):
-        print("同步服务：✅正常")
-    else:
-        run_script("sync_radar.py")
-        print("同步服务：✅已启动")
-
-
-    print("\n运行信号引擎...")
-
-    signal = subprocess.run(
-        [sys.executable, os.path.join(BASE_DIR, "signal_engine.py")],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True
-    )
-
-    if signal.returncode == 0:
-        print("信号引擎：✅完成")
-    else:
-        print("信号引擎：⚠️检查")
-
+    # Reuse the accepted sync entry; it runs signal then position in order.
+    sync = subprocess.run(["/bin/bash", os.path.join(BASE_DIR, "sync_radar.sh")],
+                          cwd=BASE_DIR)
+    if sync.returncode != 0:
+        print("同步服务：⚠️失败，请检查")
+        sys.exit(sync.returncode)
+    print("同步完成；信号引擎 → 仓位引擎已依次执行，状态如下：")
+    health_check()
 
     print("\n最新数据：")
     print(radar_time())

@@ -111,6 +111,7 @@ if __name__ == "__main__":
 
     result = {
         "update_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "source_updated_at": radar["updated_at"],
         "stocks": {}
     }
 
