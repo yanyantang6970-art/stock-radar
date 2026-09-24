@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-24 12:45:56",
-  "source_updated_at": "2026-09-24 12:44:33",
+  "update_time": "2026-09-24 13:05:02",
+  "source_updated_at": "2026-09-24 13:04:59",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 32.88,
+      "price": 32.97,
       "score": 56,
       "signal": "T_BUY",
       "drivers": [
@@ -22,7 +22,7 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 17.08,
+      "price": 17.12,
       "score": 47,
       "signal": "HOLD",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 8.94,
+      "price": 8.95,
       "score": 51,
       "signal": "HOLD",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 17.99,
+      "price": 18.01,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -68,22 +68,22 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 12.56,
-      "score": 35,
-      "signal": "REDUCE",
+      "price": 12.58,
+      "score": 50,
+      "signal": "HOLD",
       "drivers": [
         "粮食安全",
         "农业政策",
         "农产品周期"
       ],
       "reasons": [
-        "短线回调"
+        "震荡"
       ],
       "role": "农业个股"
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.188,
+      "price": 1.19,
       "score": 35,
       "signal": "REDUCE",
       "drivers": [
