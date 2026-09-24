@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-24 09:25:01",
-  "source_updated_at": "2026-09-24 09:24:42",
+  "update_time": "2026-09-24 09:30:01",
+  "source_updated_at": "2026-09-24 09:29:44",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 33.36,
+      "price": 33.44,
       "score": 56,
       "signal": "T_BUY",
       "drivers": [
@@ -22,7 +22,7 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 17.47,
+      "price": 17.48,
       "score": 62,
       "signal": "HOLD",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 9.11,
+      "price": 9.06,
       "score": 66,
       "signal": "HOLD",
       "drivers": [
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 12.76,
+      "price": 12.77,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.216,
+      "price": 1.215,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,15 +97,15 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 21.68,
-      "score": 79,
+      "price": 21.5,
+      "score": 64,
       "signal": "HOLD",
       "drivers": [
         "铝价",
         "港股资源周期"
       ],
       "reasons": [
-        "短线强势",
+        "震荡",
         "aluminum周期支持"
       ],
       "role": "港股铝"
