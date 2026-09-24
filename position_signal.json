@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-09-24 10:50:02",
-  "source_updated_at": "2026-09-24 10:50:00",
-  "signal_updated_at": "2026-09-24 10:50:01",
+  "update_time": "2026-09-24 11:10:02",
+  "source_updated_at": "2026-09-24 11:09:33",
+  "signal_updated_at": "2026-09-24 11:10:01",
   "stocks": {
     "000426": {
       "name": "兴业银锡",
@@ -73,14 +73,14 @@
       "total": 1400,
       "core": 1400,
       "t_position": 0,
-      "signal": "HOLD",
-      "core_action": "保持核心仓",
+      "signal": "REDUCE",
+      "core_action": "核心仓减仓观察",
       "t_action": {
         "type": "无机动仓动作",
         "amount": 0
       },
       "reason": [
-        "震荡"
+        "短线回调"
       ]
     },
     "159587": {
