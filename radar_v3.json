@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-24 14:50:02",
-  "source_updated_at": "2026-09-24 14:49:51",
+  "update_time": "2026-09-24 14:55:02",
+  "source_updated_at": "2026-09-24 14:54:54",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 32.75,
+      "price": 32.74,
       "score": 56,
       "signal": "T_BUY",
       "drivers": [
@@ -22,7 +22,7 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 17.06,
+      "price": 17.07,
       "score": 47,
       "signal": "HOLD",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 8.88,
+      "price": 8.9,
       "score": 51,
       "signal": "HOLD",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 17.89,
+      "price": 17.9,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 12.53,
+      "price": 12.49,
       "score": 35,
       "signal": "REDUCE",
       "drivers": [
