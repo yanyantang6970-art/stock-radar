@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-24 14:25:01",
-  "source_updated_at": "2026-09-24 14:24:38",
+  "update_time": "2026-09-24 14:30:02",
+  "source_updated_at": "2026-09-24 14:29:40",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 32.82,
+      "price": 32.78,
       "score": 56,
       "signal": "T_BUY",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 8.92,
+      "price": 8.91,
       "score": 51,
       "signal": "HOLD",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 17.94,
+      "price": 17.9,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.187,
+      "price": 1.186,
       "score": 35,
       "signal": "REDUCE",
       "drivers": [
