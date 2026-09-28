@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-09-28 09:20:01",
-  "source_updated_at": "2026-09-28 09:19:47",
-  "signal_updated_at": "2026-09-28 09:20:01",
+  "update_time": "2026-09-28 09:25:02",
+  "source_updated_at": "2026-09-28 09:24:49",
+  "signal_updated_at": "2026-09-28 09:25:02",
   "stocks": {
     "000426": {
       "name": "兴业银锡",
@@ -33,7 +33,7 @@
         "amount": 0
       },
       "reason": [
-        "震荡",
+        "短线回调",
         "copper周期支持"
       ]
     },
