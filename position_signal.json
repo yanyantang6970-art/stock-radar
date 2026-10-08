@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-10-08 10:10:13",
-  "source_updated_at": "2026-10-08 10:09:45",
-  "signal_updated_at": "2026-10-08 10:10:11",
+  "update_time": "2026-10-08 10:15:02",
+  "source_updated_at": "2026-10-08 10:14:51",
+  "signal_updated_at": "2026-10-08 10:15:02",
   "stocks": {
     "000426": {
       "name": "兴业银锡",
@@ -110,7 +110,7 @@
         "amount": 0
       },
       "reason": [
-        "震荡",
+        "短线强势",
         "aluminum周期支持"
       ]
     }
