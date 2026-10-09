@@ -1,19 +1,19 @@
 {
-  "update_time": "2026-10-09 09:10:04",
-  "source_updated_at": "2026-10-09 09:09:38",
+  "update_time": "2026-10-09 09:15:01",
+  "source_updated_at": "2026-10-09 09:14:41",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "price": 30.7,
-      "score": 56,
-      "signal": "T_BUY",
+      "score": 71,
+      "signal": "HOLD",
       "drivers": [
         "白银周期",
         "锡资源",
         "贵金属周期"
       ],
       "reasons": [
-        "短线回调",
+        "震荡",
         "silver周期支持",
         "gold周期支持",
         "核心仓"
@@ -23,7 +23,7 @@
     "sh603993": {
       "name": "洛阳钼业",
       "price": 16.61,
-      "score": 47,
+      "score": 62,
       "signal": "HOLD",
       "drivers": [
         "铜周期",
@@ -31,7 +31,7 @@
         "资源周期"
       ],
       "reasons": [
-        "短线回调",
+        "震荡",
         "copper周期支持"
       ],
       "role": "观察仓"
@@ -54,15 +54,15 @@
     "sz002202": {
       "name": "金风科技",
       "price": 16.68,
-      "score": 35,
-      "signal": "T_BUY",
+      "score": 50,
+      "signal": "HOLD",
       "drivers": [
         "风电",
         "绿色能源",
         "商业航天主题"
       ],
       "reasons": [
-        "短线回调"
+        "震荡"
       ],
       "role": "500观察 + 500机动"
     },
