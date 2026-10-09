@@ -1,72 +1,72 @@
 {
-  "updated_at": "2026-10-09 09:29:47",
+  "updated_at": "2026-10-09 09:34:51",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "position": 5000,
       "role": "4000核心 + 1000机动",
-      "price": 30.74,
-      "change_pct": 0.13029315960911775,
+      "price": 30.68,
+      "change_pct": -0.06514657980455887,
       "open": 30.74,
-      "high": 30.74,
-      "low": 30.74
+      "high": 30.93,
+      "low": 30.5
     },
     "sh603993": {
       "name": "洛阳钼业",
       "position": 6600,
       "role": "观察仓",
-      "price": 16.61,
-      "change_pct": 0.0,
+      "price": 16.64,
+      "change_pct": 0.18061408789886296,
       "open": 16.61,
-      "high": 16.61,
-      "low": 16.61
+      "high": 16.7,
+      "low": 16.52
     },
     "sh601600": {
       "name": "中国铝业",
       "position": 10300,
       "role": "观察仓",
-      "price": 9.04,
-      "change_pct": 0.2217294900221682,
+      "price": 8.96,
+      "change_pct": -0.6651884700665047,
       "open": 9.04,
-      "high": 9.04,
-      "low": 9.04
+      "high": 9.06,
+      "low": 8.9
     },
     "sz002202": {
       "name": "金风科技",
       "position": 1000,
       "role": "500观察 + 500机动",
-      "price": 16.68,
-      "change_pct": 0.0,
+      "price": 16.42,
+      "change_pct": -1.5587529976019066,
       "open": 16.68,
-      "high": 16.68,
-      "low": 16.68
+      "high": 16.72,
+      "low": 16.4
     },
     "sh600598": {
       "name": "北大荒",
       "position": 1400,
       "role": "农业个股",
-      "price": 12.7,
-      "change_pct": 0.47468354430378734,
+      "price": 12.66,
+      "change_pct": 0.15822784810126245,
       "open": 12.7,
-      "high": 12.7,
-      "low": 12.7
+      "high": 12.76,
+      "low": 12.6
     },
     "sz159587": {
       "name": "粮食ETF",
       "position": 10500,
       "role": "农业Beta",
-      "price": 1.169,
-      "change_pct": 0.0,
+      "price": 1.168,
+      "change_pct": -0.08554319931566398,
       "open": 1.169,
-      "high": 1.169,
-      "low": 1.169
+      "high": 1.178,
+      "low": 1.166
     },
     "hk01378": {
       "name": "中国宏桥",
       "position": 1500,
       "role": "港股铝",
-      "price": 21.54,
-      "change_pct": 2.7671755725190756,
+      "price": 21.36,
+      "change_pct": 1.9083969465648787,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
