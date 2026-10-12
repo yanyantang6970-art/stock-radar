@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-10-12 14:45:03",
-  "source_updated_at": "2026-10-12 14:44:31",
+  "update_time": "2026-10-12 14:50:02",
+  "source_updated_at": "2026-10-12 14:49:36",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 30.24,
+      "price": 30.3,
       "score": 56,
       "signal": "T_BUY",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 16.15,
+      "price": 16.13,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 21.2,
+      "price": 21.16,
       "score": 64,
       "signal": "HOLD",
       "drivers": [
