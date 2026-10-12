@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12 09:14:30",
+  "updated_at": "2026-10-12 09:19:32",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "position": 5000,
       "role": "4000核心 + 1000机动",
-      "price": 31.96,
-      "change_pct": 0.0,
+      "price": 32.39,
+      "change_pct": 1.3454317897371706,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -15,8 +15,8 @@
       "name": "洛阳钼业",
       "position": 6600,
       "role": "观察仓",
-      "price": 17.22,
-      "change_pct": 0.0,
+      "price": 17.23,
+      "change_pct": 0.05807200929153057,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -25,8 +25,8 @@
       "name": "中国铝业",
       "position": 10300,
       "role": "观察仓",
-      "price": 9.07,
-      "change_pct": 0.0,
+      "price": 9.12,
+      "change_pct": 0.551267916207265,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -66,10 +66,10 @@
       "position": 1500,
       "role": "港股铝",
       "price": 21.14,
-      "change_pct": 0.8587786259541972,
-      "open": 21.2,
-      "high": 21.3,
-      "low": 20.78
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     }
   }
 }
