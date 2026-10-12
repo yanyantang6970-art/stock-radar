@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-10-12 09:20:01",
-  "source_updated_at": "2026-10-12 09:19:32",
+  "update_time": "2026-10-12 09:25:01",
+  "source_updated_at": "2026-10-12 09:24:34",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 32.39,
+      "price": 32.18,
       "score": 71,
       "signal": "HOLD",
       "drivers": [
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.16,
+      "price": 13.1,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.22,
+      "price": 1.218,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
