@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-10-14 10:40:02",
-  "source_updated_at": "2026-10-14 10:39:52",
+  "update_time": "2026-10-14 11:21:41",
+  "source_updated_at": "2026-10-14 11:11:42",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 29.97,
+      "price": 30.1,
       "score": 71,
       "signal": "HOLD",
       "drivers": [
@@ -22,8 +22,8 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 16.75,
-      "score": 47,
+      "price": 16.84,
+      "score": 62,
       "signal": "HOLD",
       "drivers": [
         "铜周期",
@@ -31,14 +31,14 @@
         "资源周期"
       ],
       "reasons": [
-        "短线回调",
+        "震荡",
         "copper周期支持"
       ],
       "role": "观察仓"
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 9.04,
+      "price": 9.11,
       "score": 66,
       "signal": "HOLD",
       "drivers": [
@@ -53,9 +53,9 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 15.52,
+      "price": 15.58,
       "score": 35,
-      "signal": "T_BUY",
+      "signal": "REDUCE",
       "drivers": [
         "风电",
         "绿色能源",
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.07,
+      "price": 13.27,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.162,
+      "price": 1.167,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 21.32,
+      "price": 21.46,
       "score": 64,
       "signal": "HOLD",
       "drivers": [
