@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-10-15 10:05:00",
-  "source_updated_at": "2026-10-15 10:04:32",
-  "signal_updated_at": "2026-10-15 10:05:00",
+  "update_time": "2026-10-15 10:10:01",
+  "source_updated_at": "2026-10-15 10:09:34",
+  "signal_updated_at": "2026-10-15 10:10:01",
   "stocks": {
     "000426": {
       "name": "兴业银锡",
@@ -58,21 +58,6 @@
       "total": 1000,
       "core": 500,
       "t_position": 500,
-      "signal": "REDUCE",
-      "core_action": "核心仓减仓观察",
-      "t_action": {
-        "type": "无机动仓动作",
-        "amount": 0
-      },
-      "reason": [
-        "短线回调"
-      ]
-    },
-    "600598": {
-      "name": "北大荒",
-      "total": 1400,
-      "core": 1400,
-      "t_position": 0,
       "signal": "HOLD",
       "core_action": "保持核心仓",
       "t_action": {
@@ -81,6 +66,21 @@
       },
       "reason": [
         "震荡"
+      ]
+    },
+    "600598": {
+      "name": "北大荒",
+      "total": 1400,
+      "core": 1400,
+      "t_position": 0,
+      "signal": "REDUCE",
+      "core_action": "核心仓减仓观察",
+      "t_action": {
+        "type": "无机动仓动作",
+        "amount": 0
+      },
+      "reason": [
+        "短线回调"
       ]
     },
     "159587": {
