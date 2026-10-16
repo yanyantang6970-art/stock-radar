@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-16 10:50:02",
-  "source_updated_at": "2026-10-16 10:49:39",
+  "update_time": "2026-10-16 10:55:02",
+  "source_updated_at": "2026-10-16 10:54:41",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
@@ -22,8 +22,8 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 15.74,
-      "score": 47,
+      "price": 15.82,
+      "score": 62,
       "signal": "HOLD",
       "drivers": [
         "铜周期",
@@ -31,14 +31,14 @@
         "资源周期"
       ],
       "reasons": [
-        "短线回调",
+        "震荡",
         "copper周期支持"
       ],
       "role": "观察仓"
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 8.8,
+      "price": 8.81,
       "score": 66,
       "signal": "HOLD",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 14.95,
+      "price": 14.96,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.29,
+      "price": 13.28,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 19.33,
+      "price": 19.3,
       "score": 64,
       "signal": "HOLD",
       "drivers": [
