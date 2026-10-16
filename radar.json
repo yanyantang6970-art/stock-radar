@@ -1,45 +1,45 @@
 {
-  "updated_at": "2026-10-16 09:09:57",
+  "updated_at": "2026-10-16 09:14:32",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "position": 5000,
       "role": "4000核心 + 1000机动",
       "price": 27.89,
-      "change_pct": -4.779788323659948,
-      "open": 28.01,
-      "high": 28.76,
-      "low": 27.74
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "sh603993": {
       "name": "洛阳钼业",
       "position": 6600,
       "role": "观察仓",
       "price": 15.99,
-      "change_pct": -3.906250000000002,
-      "open": 16.16,
-      "high": 16.23,
-      "low": 15.4
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "sh601600": {
       "name": "中国铝业",
       "position": 10300,
       "role": "观察仓",
       "price": 8.68,
-      "change_pct": -3.340757238307358,
-      "open": 8.82,
-      "high": 8.84,
-      "low": 8.48
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "sz002202": {
       "name": "金风科技",
       "position": 1000,
       "role": "500观察 + 500机动",
       "price": 14.8,
-      "change_pct": -2.4390243902438975,
-      "open": 14.72,
-      "high": 15.08,
-      "low": 14.61
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "sh600598": {
       "name": "北大荒",
@@ -47,19 +47,19 @@
       "role": "农业个股",
       "price": 13.13,
       "change_pct": 0.0,
-      "open": 12.98,
-      "high": 13.22,
-      "low": 12.9
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "sz159587": {
       "name": "粮食ETF",
       "position": 10500,
       "role": "农业Beta",
       "price": 1.111,
-      "change_pct": -3.5590277777777715,
-      "open": 1.139,
-      "high": 1.14,
-      "low": 1.108
+      "change_pct": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0
     },
     "hk01378": {
       "name": "中国宏桥",
