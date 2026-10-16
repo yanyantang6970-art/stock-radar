@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-16 11:10:04",
-  "source_updated_at": "2026-10-16 11:09:53",
+  "update_time": "2026-10-16 11:15:01",
+  "source_updated_at": "2026-10-16 11:14:55",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
@@ -53,9 +53,9 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 15.04,
+      "price": 15.12,
       "score": 65,
-      "signal": "HOLD",
+      "signal": "T_SELL",
       "drivers": [
         "风电",
         "绿色能源",
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.32,
+      "price": 13.3,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 19.35,
+      "price": 19.42,
       "score": 64,
       "signal": "HOLD",
       "drivers": [
