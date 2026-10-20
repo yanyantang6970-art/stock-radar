@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-10-20 11:00:00",
-  "source_updated_at": "2026-10-20 10:59:41",
+  "update_time": "2026-10-20 11:05:01",
+  "source_updated_at": "2026-10-20 11:04:43",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 28.67,
+      "price": 28.75,
       "score": 71,
       "signal": "HOLD",
       "drivers": [
@@ -22,7 +22,7 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 14.35,
+      "price": 14.43,
       "score": 47,
       "signal": "HOLD",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 8.7,
+      "price": 8.73,
       "score": 66,
       "signal": "HOLD",
       "drivers": [
@@ -53,7 +53,7 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 15.24,
+      "price": 15.26,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.61,
+      "price": 13.59,
       "score": 65,
       "signal": "HOLD",
       "drivers": [
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.115,
+      "price": 1.113,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
