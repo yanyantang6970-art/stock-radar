@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-10-20 14:14:19",
-  "source_updated_at": "2026-10-20 14:14:11",
+  "update_time": "2026-10-20 14:15:00",
+  "source_updated_at": "2026-10-20 14:14:41",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 28.2,
+      "price": 28.22,
       "score": 56,
-      "signal": "T_BUY",
+      "signal": "HOLD",
       "drivers": [
         "白银周期",
         "锡资源",
@@ -68,7 +68,7 @@
     },
     "sh600598": {
       "name": "北大荒",
-      "price": 13.51,
+      "price": 13.49,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 18.85,
+      "price": 18.84,
       "score": 49,
       "signal": "HOLD",
       "drivers": [
