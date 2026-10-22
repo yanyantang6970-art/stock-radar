@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-22 09:24:09",
+  "updated_at": "2026-10-22 09:24:39",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "position": 5000,
       "role": "4000核心 + 1000机动",
-      "price": 28.84,
-      "change_pct": -0.3455425017277174,
+      "price": 28.8,
+      "change_pct": -0.48375950241879945,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -15,8 +15,8 @@
       "name": "洛阳钼业",
       "position": 6600,
       "role": "观察仓",
-      "price": 14.37,
-      "change_pct": 1.5547703180211934,
+      "price": 14.29,
+      "change_pct": 0.9893992932862106,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -45,8 +45,8 @@
       "name": "北大荒",
       "position": 1400,
       "role": "农业个股",
-      "price": 13.58,
-      "change_pct": -0.5856515373352861,
+      "price": 13.57,
+      "change_pct": -0.6588579795021952,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -55,8 +55,8 @@
       "name": "粮食ETF",
       "position": 10500,
       "role": "农业Beta",
-      "price": 1.122,
-      "change_pct": 0.6278026905829702,
+      "price": 1.12,
+      "change_pct": 0.448430493273553,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -65,8 +65,8 @@
       "name": "中国宏桥",
       "position": 1500,
       "role": "港股铝",
-      "price": 18.9,
-      "change_pct": -0.10570824524314547,
+      "price": 18.92,
+      "change_pct": 0.0,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
