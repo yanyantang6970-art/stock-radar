@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-26 09:17:33",
+  "updated_at": "2026-10-26 09:23:19",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
       "position": 5000,
       "role": "4000核心 + 1000机动",
-      "price": 27.5,
-      "change_pct": -1.3983506633201885,
+      "price": 27.46,
+      "change_pct": -1.5417712441735378,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -15,8 +15,8 @@
       "name": "洛阳钼业",
       "position": 6600,
       "role": "观察仓",
-      "price": 14.23,
-      "change_pct": 0.0,
+      "price": 14.45,
+      "change_pct": 1.5460295151089167,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -25,8 +25,8 @@
       "name": "中国铝业",
       "position": 10300,
       "role": "观察仓",
-      "price": 8.6,
-      "change_pct": -0.3476245654693063,
+      "price": 8.74,
+      "change_pct": 1.274623406720735,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -35,8 +35,8 @@
       "name": "金风科技",
       "position": 1000,
       "role": "500观察 + 500机动",
-      "price": 14.9,
-      "change_pct": 0.0,
+      "price": 14.83,
+      "change_pct": -0.4697986577181227,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -45,8 +45,8 @@
       "name": "北大荒",
       "position": 1400,
       "role": "农业个股",
-      "price": 13.83,
-      "change_pct": -0.3602305475504374,
+      "price": 13.88,
+      "change_pct": 0.0,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
@@ -55,8 +55,8 @@
       "name": "粮食ETF",
       "position": 10500,
       "role": "农业Beta",
-      "price": 1.087,
-      "change_pct": 0.0,
+      "price": 1.075,
+      "change_pct": -1.1039558417663302,
       "open": 0.0,
       "high": 0.0,
       "low": 0.0
