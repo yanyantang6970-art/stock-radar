@@ -1,19 +1,19 @@
 {
-  "update_time": "2026-11-24 09:15:00",
-  "source_updated_at": "2026-11-24 09:14:41",
+  "update_time": "2026-11-24 09:20:01",
+  "source_updated_at": "2026-11-24 09:19:44",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
-      "price": 19.65,
-      "score": 71,
-      "signal": "HOLD",
+      "price": 20.25,
+      "score": 86,
+      "signal": "T_SELL",
       "drivers": [
         "白银周期",
         "锡资源",
         "贵金属周期"
       ],
       "reasons": [
-        "震荡",
+        "短线强势",
         "silver周期支持",
         "gold周期支持",
         "核心仓"
@@ -22,8 +22,8 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 12.14,
-      "score": 62,
+      "price": 12.4,
+      "score": 77,
       "signal": "HOLD",
       "drivers": [
         "铜周期",
@@ -31,14 +31,14 @@
         "资源周期"
       ],
       "reasons": [
-        "震荡",
+        "短线强势",
         "copper周期支持"
       ],
       "role": "观察仓"
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 7.79,
+      "price": 7.85,
       "score": 66,
       "signal": "HOLD",
       "drivers": [
@@ -53,8 +53,8 @@
     },
     "sz002202": {
       "name": "金风科技",
-      "price": 13.29,
-      "score": 50,
+      "price": 13.5,
+      "score": 65,
       "signal": "HOLD",
       "drivers": [
         "风电",
@@ -62,7 +62,7 @@
         "商业航天主题"
       ],
       "reasons": [
-        "震荡"
+        "短线强势"
       ],
       "role": "500观察 + 500机动"
     },
@@ -83,7 +83,7 @@
     },
     "sz159587": {
       "name": "粮食ETF",
-      "price": 1.012,
+      "price": 1.015,
       "score": 50,
       "signal": "HOLD",
       "drivers": [
@@ -97,15 +97,15 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 17.23,
-      "score": 64,
+      "price": 17.7,
+      "score": 79,
       "signal": "HOLD",
       "drivers": [
         "铝价",
         "港股资源周期"
       ],
       "reasons": [
-        "震荡",
+        "短线强势",
         "aluminum周期支持"
       ],
       "role": "港股铝"
