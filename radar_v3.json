@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-24 11:40:03",
-  "source_updated_at": "2026-11-24 11:39:50",
+  "update_time": "2026-11-24 11:45:01",
+  "source_updated_at": "2026-11-24 11:44:54",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
@@ -97,7 +97,7 @@
     },
     "hk01378": {
       "name": "中国宏桥",
-      "price": 16.37,
+      "price": 16.4,
       "score": 49,
       "signal": "HOLD",
       "drivers": [
