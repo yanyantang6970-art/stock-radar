@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-25 14:19:12",
-  "source_updated_at": "2026-11-25 14:19:11",
+  "update_time": "2026-11-25 14:20:00",
+  "source_updated_at": "2026-11-25 14:19:41",
   "stocks": {
     "sz000426": {
       "name": "兴业银锡",
@@ -22,7 +22,7 @@
     },
     "sh603993": {
       "name": "洛阳钼业",
-      "price": 11.65,
+      "price": 11.64,
       "score": 62,
       "signal": "HOLD",
       "drivers": [
@@ -38,7 +38,7 @@
     },
     "sh601600": {
       "name": "中国铝业",
-      "price": 7.46,
+      "price": 7.45,
       "score": 51,
       "signal": "HOLD",
       "drivers": [
